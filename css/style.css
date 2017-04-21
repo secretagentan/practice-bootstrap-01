@@ -1,5 +1,5 @@
 html {
-  font-size: 20px;
+  /*font-size: 20px;*/
   /*font-family: Arial, sans-serif;*/
   /*width: 100%;*/
   /*top: 0;*/
@@ -11,6 +11,7 @@ html {
   z-index: 100;*/
 }
 body {
+  text-align: center;
   padding: 0;
   margin: 0;
 }
@@ -18,30 +19,82 @@ body {
   padding: 0;
   margin: 0;
 }
-.main-title, .about-me {
+.main-title {
   text-align: center;
   clear: both;
   opacity: 0.4;
 }
+.jumbotron {
+  margin: 0;
+}
 .jt-1 {
   background-color: #48C9B0;
-  margin: 0;
-  min-height: 100%;
-  min-height: 100vh;
 }
 .vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
+
 }
 .sub-title {
   opacity: 1;
   color: white;
 }
 .jt-2 {
-  min-height: 60%;
-  min-height: 60vh;
+  background-color: white;
 }
 .cont-2 {
   width: 80%;
+  clear: both;
+}
+.jt-3 {
+  background-color: #F7DC6F;
+}
+.cont-3 {
+  width: 100%;
+  display: inline-block;
+}
+.skills {
+  display: inline;
+  width: 60%;
+  margin: 0 auto;
+}
+img.icon {
+  opacity: 1;
+  height: 10em;
+  color: silver;
+  padding: 5% 10%;
+}
+.jt-4 {
+  background-color: #F1948A;
+}
+footer {
+  background-color: black;
+}
+.cont-ft {
+  background-color: black;
+  text-align: center;
+  min-height: 20%;
+  min-height: 20vh;
+  width: 60%;
+  font-size: 1.2em;
+  font-style: italic;
+  color: ;
+}
+hr {
+  width: 90%;
+}
+.social {
+  margin: 0 auto;
+}
+a.social {
+  display: inline-block;
+}
+img.social {
+  opacity: 1;
+  height: 2em;
+  color: silver;
+  padding: 0 auto;
 }

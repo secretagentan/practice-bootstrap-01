@@ -4,18 +4,27 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   <title>h e l l o</title>
+
+  <!-- stylesheets -->
   <link href="css/normalize.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" rel="stylesheet" >
   <link href="css/style.css" rel="stylesheet">
+
+  <!-- jquery -->
   <script
   src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
   integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
   crossorigin="anonymous"></script>
+
 </head>
 <body>
   <header>
+
     <nav class="navbar navbar-fixed-top navbar-inverse pg-nav">
+
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -25,39 +34,58 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
+          <!-- top left logo -->
           <a class="navbar-brand" href="index.html">
-            <span class="glyphicon glyphicon-asterisk" aria-hidden="true">
-            </span>
+            <span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>
           </a>
+
         </div>
+
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
           </ul>
+
+          <!-- search form in navbar-->
           <form class="navbar-form navbar-left">
             <div class="form-group">
               <input type="text" class="form-control" placeholder="search">
             </div>
             <button type="submit" class="btn btn-default">submit</button>
           </form>
+
+          <!-- navbar links -->
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="index.html">home<span class="sr-only">(current)</span></a></li>
+
             <li><a href="#">about</a></li>
+
+            <!-- services dropdown in navbar-->
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">services<span class="caret"></span></a>
               <ul class="dropdown-menu">
+                <li><a href="#">web design</a></li>
                 <li><a href="#">web development</a></li>
                 <li><a href="#">social media</a></li>
                 <li><a href="#">dog walking</a></li>
               </ul>
             </li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-  </header>
 
+            <li><a href="#">contact</a></li>
+
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container-fluid -->
+
+    </nav>
+
+  </header>
+  <!-- END HEADER/NAVBAR -->
+
+  <!-- main intro container -->
   <div class="jumbotron jt-1 vertical-center">
     <div class="container-fluid">
       <h1 class="main-title align-middle">h e l l o . w o r l d</h1>
@@ -65,12 +93,90 @@
     </div>
   </div>
 
+  <!-- about me -->
   <div class="jumbotron jt-2 vertical-center">
-    <div class="container-fluid cont-2">
-      <h3 class="about-me align-middle">about me</h3>
-      <p class="about-me align-middle">I need...I need...I need... fish fingers and custard! There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good! Usually called 'The Doctor.' Or 'The Caretaker.' Or 'Get off this planet.' Though, strictly speaking, that probably isn't a name. Come along, Pond! Frightened people. Give me a Dalek any day.</p>
+    <div class="container-fluid cont-2 align-middle">
+      <h3 class="section-title">about me</h3>
+      <p>I need...I need...I need... fish fingers and custard! There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good! Usually called 'The Doctor.' Or 'The Caretaker.' Or 'Get off this planet.' Though, strictly speaking, that probably isn't a name. Come along, Pond! Frightened people. Give me a Dalek any day.</p>
     </div>
   </div>
+
+  <!-- services / skills -->
+  <div class="jumbotron jt-3 vertical-center">
+    <div class="container-fluid cont-3 align-middle">
+
+      <h3 class="section-title">services</h3>
+
+      <div class="row">
+        <div class="col-md-2">web development</div>
+        <div class="col-md-2">web design</div>
+        <div class="col-md-2">social media</div>
+        <div class="col-md-2">dog walking</div>
+      </div>
+
+      <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+      </div>
+
+      <br>
+      <hr>
+      <br>
+
+      <!-- skills -->
+      <div class="container-fluid align-middle">
+        <h3 class="section-title">skills</h3>
+        <img class="icon" src="assets/html-5-logo.svg">
+        <img class="icon" src="assets/css-3.svg">
+        <img class="icon" src="assets/js-file.svg">
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- contact form -->
+  <div class="jumbotron jt-4 vertical-center">
+    <div class="container-fluid align-middle">
+      <h3 class="section-title">contact</h3>
+      <p>I need...I need...I need... fish fingers and custard! There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good! Usually called 'The Doctor.' Or 'The Caretaker.' Or 'Get off this planet.' Though, strictly speaking, that probably isn't a name. Come along, Pond! Frightened people. Give me a Dalek any day.</p>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="container-fluid">
+    <div class="container-fluid cont-ft vertical-center">
+      <p class="align-middle" style="color: white; padding-top: 3%">"You need to get yourself a better dictionary. When you do, look up 'genocide'. You'll find a little picture of me there, and the caption'll read 'Over my dead body'."<d/p>
+    </div>
+
+    <hr>
+
+    <!-- social media logos -->
+    <div class="social container-fluid cont-ft align-middle vertical-center">
+      <a class="social" href="#">
+        <img class="social" src="assets/facebook.svg">
+      </a>
+
+      <a class="social" href="#">
+        <img class="social" src="assets/github.svg">
+      </a>
+
+      <a class="social" href="#">
+        <img class="social" src="assets/linkedin.svg">
+      </a>
+
+      <a class="social" href="#">
+        <img class="social" src="assets/twitter.svg">
+      </a>
+
+      <a class="social" href="#">
+        <img class="social" src="assets/pinterest.svg">
+      </a>
+    </div>
+
+  </footer>
 
   <!-- js script tags -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
